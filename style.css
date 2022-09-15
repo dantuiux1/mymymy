@@ -1,0 +1,295 @@
+body {
+  padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: 000;
+    font-size: 40px;
+
+}
+
+p { 
+  padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: 000;
+    font-size: 32px;
+
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: 000;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: 000;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  color: 000;
+  font-size: 40px;
+  text-transform: none;
+  font-weight: 500;
+
+}
+
+h3 { 
+  padding: 0;
+  margin: 100;
+  color: 000;
+  font-size: 32px;
+  text-transform: none;
+  font-weight: 500;
+
+}
+
+.container {
+  width: 1296px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav {
+  padding-top: 40px;
+}
+
+.offer {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1150px;
+  padding-top: 110px;
+
+}
+
+.btn {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(black, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.btn:hover {
+    background-size: 100% 2px;
+}
+
+#button {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 40px;
+  font-weight: 400;
+}
+
+.slider-frame {
+  padding-top: 130px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin-left: 360;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes slide_animation{
+  0% {left: 0%}
+  10% {left: 0%}
+  20% {left: 100%}
+  30% {left: 100%}
+  40% {left: 200%}
+  50% {left: 200%}
+  60% {left: 100%}
+  70% {left: 100%}
+  80% {left: 0%;}
+  90% {left: 0%}
+  100% {left: 0%}
+
+}
+
+.slide-images {
+  widows: 200%;
+  height: 100%;
+  margin: 0 0 0 -200%;
+  position: relative;
+    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 25s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.image-container {
+  height: 650px;
+  width: 1296px;
+  position: relative;
+  float: right;
+}
+
+.columnss {
+
+  height: 544px;
+}
+
+.explan {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.columnss {
+  margin-left: auto;
+  display: flex;
+}
+
+
+.desk-left {
+  width: 226px;
+  margin-right: 170px;
+  margin-left: auto;
+
+}
+
+.desk-right {
+  width: 226px;
+}
+
+
+.about {
+  margin-top: 140px;
+}
+
+.map {
+  margin-top: 140px;
+}
+
+.explanation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.contacts-title {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+.last {
+  text-align: center;
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+}
+
+@media only screen and (max-width: 575px) {
+
+  .container {
+    margin: 0px;
+
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 65px;
+  }
+
+  #button {
+    font-size: 60px;
+    padding-top: 70px;
+  }
+
+  .slider-frame {
+    overflow-x:hidden;
+
+  }
+
+
+
+  .about {
+    height: 980px;
+
+  }
+
+  .explan {
+    text-align: center;
+  }
+
+  .desk-left {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+  .columnss {
+    margin-top: 80px;
+  }
+
+  .desk-right {
+    width: 100%;
+  }
+
+  .explanation {
+    text-align: center;
+    display: block;
+    line-height: 90px;
+    margin-bottom: 80px;
+  }
+
+  .contacts-title {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 130px;
+}
+
+  .last {
+  text-align: center;
+  font-size: 36px;
+  color: grey;
+  margin-bottom: 130px;
+}
+
+}
